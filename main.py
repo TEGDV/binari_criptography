@@ -19,7 +19,7 @@ def binari_convertion(decimal_number):
 
 if __name__ == "__main__":
 
-    text_input = input('Write a text:   ')
+    text_input = input('Write a text:   ').lower()
     binari_output = ''
     for letter in text_input:
         binari_output += ' ' + binari_convertion(ord(letter) - 96)
